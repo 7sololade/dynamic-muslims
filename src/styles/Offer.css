@@ -78,7 +78,7 @@ h1 .span-one{
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     height: 350px;
-    width: 300px;
+    width: 280px;
     /* gap: 20px; */
     display: flex;
     align-items: last baseline;
@@ -106,7 +106,6 @@ h1 .span-one{
 }
 
 .obg1{
-    /* border: 5px; */
     background-image: url('../assets/images/sip\ and\ paint\ grp.jpg');
 }
 
@@ -180,4 +179,13 @@ h1 .span-one{
         width: 98%;
         margin: 0 10px;
     }
+}
+
+@media (width < 515px) {
+
+    .offer{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
 }
