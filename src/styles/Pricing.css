@@ -87,6 +87,7 @@
 .hr{
     width: 100%;
     color: var(--text);
+    background-color: brown;
 }
 
 .card-two h1{
