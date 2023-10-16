@@ -1,0 +1,183 @@
+@import url('../styles/Global-style.css');
+
+
+
+
+.our-offer{
+    width: 95vw;
+    margin: 100px auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--text);
+    outline: 1px solid crimson;
+    /* justify-content: space-between; */
+}
+
+.our-offer article{
+    width: 51.3%;
+    margin: 90px;
+    /* border: 1px solid white; */
+    color: var(--background);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex: 1 0 1;
+}
+
+article p{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+
+
+
+article h1{
+    font-family: 'Cabinet Grotesk', sans-serif !important;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+article h1::after{
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: 45;
+    height: 10px;
+    width: 12%;
+    background-color: var(--accent);
+}
+
+
+h1 .span-one{
+    display: block;
+}
+
+
+.what-we-offer {
+    /* width: 100%; */
+    margin: 60px auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.offer{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    height: 350px;
+    width: 300px;
+    /* gap: 20px; */
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+
+}
+
+
+.offer h3{
+    color: var(--white);
+    margin-bottom: 30px;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'Cabinet Grotesk', sans-serif !important;
+    z-index: 2;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--text);
+    text-align: center;
+}
+
+.obg1{
+    /* border: 5px; */
+    background-image: url('../assets/images/sip\ and\ paint\ grp.jpg');
+}
+
+.obg2{
+    background-image: url('../assets/images/AST_0806.jpg');  
+}
+
+.obg3{
+    background-image: url('../assets/images/facial\ paint.jpg');
+}
+
+.obg4{
+    background-image: url('../assets/images/henna.jpg');
+}
+
+.obg5{
+    background-image: url('../assets/images/quran\ recitation.jpg');
+}
+
+.obg6{
+    background-image: url('../assets/images/vendor_corner.jpg');
+}
+
+
+@media (width < 900px) {
+    
+    .our-offer article{
+        width: 60%;
+
+    }
+    
+}
+
+@media (width < 800px) {
+    
+    .our-offer article{
+        width: 80%;
+    }
+
+    article h1{
+        font-size: 40px;
+    }
+
+
+    .what-we-offer {
+        gap: 20px;
+    }
+    
+    .offer{
+        width: 480px;
+    }
+    
+}
+
+
+@media (width < 700px) {
+    
+    .our-offer article{
+        width: 90%;
+    }
+
+    article p{
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+}
+
+@media (width < 600px) {
+    
+    .our-offer article{
+        width: 98%;
+        margin: 0 10px;
+    }
+}

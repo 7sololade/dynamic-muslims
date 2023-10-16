@@ -1,0 +1,98 @@
+@import url('../styles/Global-style.css');
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.countDown-div{
+    width: 95vw;
+    margin: 150px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* outline: 1px solid royalblue; */
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-wrap: wrap;
+    color: var(--text);
+}
+
+.countDown-div h1{
+    text-align: center;
+    width: 50%;
+}
+
+.countdown{
+    width: 50%;
+    margin: 50px 0;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 0 1;
+    flex-wrap: wrap;
+    /* outline: 1px solid lawngreen; */
+    padding: 10px;
+}
+
+.countdown > *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    padding: 0 10px;
+}
+
+.countdown span{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.countdown p{
+    font-size: 24px;
+}
+
+
+
+@media (width < 510px) {
+    
+    .countdown{
+        width: 60%;
+    }
+    
+}
+
+
+
+
+@media (width < 420px) {
+
+    .countdown{
+        width: 65%;
+    }
+
+    .countDown-div h1{
+        font-size: 28px;
+    }
+}
+
+@media (width < 400px) {
+
+    .countdown{
+        width: 75%;
+    }
+    
+}
+    
+    
+
+

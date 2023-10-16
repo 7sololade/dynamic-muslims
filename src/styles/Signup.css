@@ -1,0 +1,99 @@
+@import url('../styles/Global-style.css');
+
+
+
+
+.main-signup{
+    font-family: 'Inter', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.main-signup h3{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.signupForm  input{
+    width: 50%;
+    display: block;
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    margin: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+.signupForm input::placeholder{
+    color: gray;
+    text-transform: uppercase;
+    text-indent: 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+
+.signupForm .signup-Btn{
+    border: 1px solid black !important; 
+    color: black;
+    width: 50%;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 300;
+    border: none;
+    outline: transparent;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.signupForm .checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 20px;
+}
+
+.signupForm .checkbox input{
+    height: 10px;
+    width: 10px;
+}
+
+.signupForm .checkbox label{
+    font-size: 10px;
+}
+
+.signupForm .checkbox .terms{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+@media (width < 768px) {
+        
+    .signupForm  input{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    
+    .signupForm .signup-Btn{
+        width: 100%;
+    }
+
+    .signupForm .checkbox{
+        display: flex;
+        width: 150px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        height: 20px;
+    }
+}

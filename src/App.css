@@ -1,0 +1,9 @@
+@import url('./styles/Global-style.css');
+
+
+body{
+    background-color: var(--background);
+    width: 95vw;
+    margin: 0 auto;
+    border: 2px solid black;
+}
