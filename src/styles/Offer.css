@@ -10,7 +10,7 @@
     align-items: flex-start;
     flex-direction: column;
     background-color: var(--text);
-    outline: 1px solid crimson;
+    /* outline: 1px solid crimson; */
     /* justify-content: space-between; */
 }
 

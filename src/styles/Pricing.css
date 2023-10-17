@@ -25,7 +25,7 @@
 .pricing-content{
     width: 60vw;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* margin: 50px auto; */
     display: flex;
     text-align: center;
@@ -152,7 +152,7 @@ ul{
 @media (width < 800px) {
         
     .pricing-content{
-        width: 65%;
+        width: 85%;
     }
 
 }
@@ -168,4 +168,17 @@ ul{
     .card{
         width: 90%;
     }
+}
+
+@media (width < 600px) {
+
+    .pricing-content{
+        width: 90%;
+    }
+
+    .pricing-content h1{
+        font-weight: 600px;
+        font-size: 30px;
+    }
+    
 }

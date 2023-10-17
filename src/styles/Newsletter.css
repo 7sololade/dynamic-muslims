@@ -13,14 +13,14 @@ font-family: 'Cabinet Grotesk', sans-serif; */
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     gap: 30px;
     background-image: url('../assets/1000_F_501523654_iTeRiR15SpnekpBQCWf11sip7THqF5oU.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-color: #010d0df1;
+    background-color: #011919f1;
     /* background: linear-gradient(-175deg, #002828, #e30602); */
     backdrop-filter: blur(10px);
 }
