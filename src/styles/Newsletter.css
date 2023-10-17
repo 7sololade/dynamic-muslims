@@ -90,10 +90,15 @@ font-family: 'Cabinet Grotesk', sans-serif; */
 
 .button-input input{
     background-color: transparent;
+    &:focus {
+        outline: none;
+        background-color: transparent;
+        color: var(--background);
+    }
     border: none;
     text-indent: 30px;
-    border-bottom: 1px solid var(--background);
-    margin-bottom: -20px;
+    /* border-bottom: 1px solid var(--background); */
+    margin-bottom: 0px;
     width: 90%;
 }
 
@@ -104,6 +109,14 @@ input::placeholder{
     font-size: 12px;
     opacity: .3;
 }
+
+
+input:focus input{
+    color: var(--background);
+    border: none;
+    outline: none;
+}
+
 
 .button-input button{
     background-color: var(--accent);
