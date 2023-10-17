@@ -12,24 +12,28 @@
 .our-pricing{
     width: 95vw;
     margin:  0 auto;    
+    margin-left: 30px;
     min-height: 10vh;
     display: flex;
     flex-direction: column;
-    /* gap: 30px; */
+    align-items: first baseline;
+    justify-content: center;
+    gap: 30px;
     /* border: 2px solid lawngreen; */
 }
 
 .pricing-content{
-    width: 60%;
+    width: 60vw;
+    margin: 0 auto;
     border: 1px solid black;
-    margin: 50px auto;
-    text-align: center;
+    /* margin: 50px auto; */
     display: flex;
+    text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
     flex: 1 0 1;
     padding: 10px;
 }

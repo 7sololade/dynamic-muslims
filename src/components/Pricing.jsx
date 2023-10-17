@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Pricing() {
   return (
-    <div className='our-pricing'>
+    <div className="our-pricing">
 
       <div className="pricing-content">
         <h1>Pricing that suits your taste</h1>

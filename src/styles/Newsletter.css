@@ -1,0 +1,125 @@
+@import url('../styles/Newsletter.css');
+
+/* font-family: 'Satoshi', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Cabinet Grotesk', sans-serif; */
+
+.newsletter{
+    width: 100vw;
+    height: 500px;
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid blue;
+    gap: 30px;
+    background-image: url('../assets/1000_F_501523654_iTeRiR15SpnekpBQCWf11sip7THqF5oU.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: #010d0df1;
+    /* background: linear-gradient(-175deg, #002828, #e30602); */
+    backdrop-filter: blur(10px);
+}
+
+
+.news-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-content .icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    background-color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background);
+}
+
+.newsletter-content{
+    width: 70%;
+    line-height: 30px;
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 1;
+
+}
+
+.newsletter-content h1{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 800;
+    color: var(--background);
+    /* font-size: 3rem; */
+    /* letter-spacing: 1px; */
+}
+
+.newsletter-content p{
+    color: var(--background);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: light;
+    letter-spacing: .5px;
+}
+
+
+.button-input{
+    width: 45%;
+    height: 60px;
+    outline: 1px solid var(--background);
+    padding: 10px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.button-input input{
+    background-color: transparent;
+    border: none;
+    text-indent: 30px;
+    border-bottom: 1px solid var(--background);
+    margin-bottom: -20px;
+    width: 90%;
+}
+
+input::placeholder{
+    color: var(--background);
+    font-weight: lighter;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    opacity: .3;
+}
+
+.button-input button{
+    background-color: var(--accent);
+    border: none;
+    color: var(--background);
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+
+@media (width < 900px) {
+
+    .button-input{
+        width: 65%;
+
+    }
+    
+}

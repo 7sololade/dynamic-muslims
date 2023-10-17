@@ -5,6 +5,7 @@ import Testimony from '../components/Testimony'
 import Offer from '../components/Offer'
 import CountDown from '../components/CountDown'
 import Pricing from '../components/Pricing'
+import Newsletter from '../components/Newsletter'
 
 // import Layout from '../pages/Layout'
 
@@ -19,8 +20,9 @@ export default function Homepage() {
       <CountDown/>
       <Offer/>
       <Pricing/>
-      <Partners/>
       <Testimony/>
+      <Newsletter/>
+      <Partners/>
     </>
   )
 }
