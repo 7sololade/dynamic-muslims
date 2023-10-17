@@ -107,7 +107,8 @@ input::placeholder{
     font-weight: lighter;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 12px;
-    opacity: .3;
+    /* opacity: ; */
+    letter-spacing: 2px;
 }
 
 
