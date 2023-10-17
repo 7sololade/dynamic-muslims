@@ -40,7 +40,7 @@ export default function Hero() {
                 </div>
             </main>
             <aside className='aside'>
-                <img  className="full-img facialPaint" src={grpPic} alt=""/>
+                <img  className="full-img " src={grpPic} alt=""/>
                 <img  className="sendPic" src={guys} alt=""/>
             </aside>
         </section>
