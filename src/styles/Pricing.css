@@ -68,7 +68,7 @@
     flex-direction: column;
     min-height: 50px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
-    background-color: var(--secondary);
+    /* background-color: var(--secondary); */
     width: 360px;
     border-radius: 10px;
     overflow: hidden;
