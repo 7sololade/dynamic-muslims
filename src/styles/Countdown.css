@@ -23,38 +23,39 @@
     color: var(--text);
 }
 
-.countDown-div h1{
-    text-align: center;
-    width: 50%;
-}
+
 
 .countdown{
-    width: 50%;
+    width: 70%;
     margin: 50px 0;
-    border: 1px solid var(--text);
+    outline: 1px solid var(--text);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex: 1 0 1;
     flex-wrap: wrap;
+    gap: 20px;
     /* outline: 1px solid lawngreen; */
     padding: 10px;
 }
 
-.countdown > *{
+.count span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    min-height: 50px;
-    padding: 0 10px;
+    justify-content: center;
+    /* min-height: 50px; */
+    padding: 10px;
+    background-color: var(--text);
+    color: white
 }
 
+
 .countdown span{
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .countdown p{
@@ -62,17 +63,33 @@
 }
 
 
+@media (width < 687px) {
 
-@media (width < 510px) {
-    
-    .countdown{
-        width: 60%;
+    .count p {
+        font-size: 20px;
     }
     
 }
 
 
+@media (width < 510px) {
+    
+    .countdown{
+        width: 70%;
+    }
+    
+}
 
+
+@media (width < 480px) {
+
+    .countDown-div h1{
+        text-align: center;
+        width: 70%;
+    }
+    
+    
+}
 
 @media (width < 420px) {
 
@@ -87,8 +104,35 @@
 
 @media (width < 400px) {
 
+    .countDown-div h1{
+        text-align: center;
+        width: 80%;
+        outline: 1px solid red;
+    }
+
     .countdown{
-        width: 75%;
+        width: 80%;
+    }
+    
+}
+
+@media (width < 305px) {
+    .countDown-div h1{
+        text-align: center;
+        width: 90%;
+    }    
+}
+
+@media (width < 300px) {
+
+    .countDown-div h1{
+        text-align: center;
+        width: 95%;
+    }
+    
+
+    .countdown{
+        width: 100%;
     }
     
 }

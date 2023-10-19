@@ -46,19 +46,19 @@ const CountdownTimer = () => {
     <div className='countDown-div'>
       <h1>Countdown Timer to the Next Event</h1>
       <div className="countdown">
-        <div className="day">
+        <div className="day count">
           <span>{formatCountdown(countdown).days}</span>
           <p>Days</p>
         </div>
-        <div className="hour">
+        <div className="hour count">
           <span>{formatCountdown(countdown).hours}</span>
           <p>Hours</p>
         </div>
-        <div className="minute">
+        <div className="minute count">
           <span>{formatCountdown(countdown).minutes}</span>
           <p>Minutes</p>
         </div>
-        <div className="second">
+        <div className="second count">
           <span>{formatCountdown(countdown).seconds}</span>
           <p>Seconds</p>
         </div>
