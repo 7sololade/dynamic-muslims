@@ -62,10 +62,10 @@ export default function Footer() {
           <Link>Policy</Link> 
         </div>
         <div className="incorporate">
-          <h3> 
+          <p> 
             {getYear} 
             <span>&copy; Dynamics Muslims All rights reserved.</span>
-          </h3>
+          </p>
         </div>
       </div>
     </div>
