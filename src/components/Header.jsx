@@ -8,7 +8,7 @@ export default function Header(props) {
       <div className="banner">
 
         <div className="logo">
-          <Link>eidfair</Link>
+          <Link to="/">eidfair</Link>
         </div>
         <nav className='nav_links'>
           <NavLink className="active-link">explore</NavLink>
