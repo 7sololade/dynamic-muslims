@@ -1,0 +1,36 @@
+@import url('../styles/Global-style.css');
+
+/* font-family: 'Satoshi', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Cabinet Grotesk', sans-serif; */
+
+
+.error-wrap{
+    width: 95vw;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+.error404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    /* border: 1px solid rebeccapurple ; */
+    margin: 0 auto 200px;
+    gap: 20px;
+}
+
+.error-img{
+    width: 250px;
+    height: 200px;
+}
+
+.error-img img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

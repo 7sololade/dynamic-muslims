@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="footer-wrap">
 
 
-        <div className="top-container">
+        {/* <div className="top-container">
           <div className="main-heading">
             <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit et soluta nostrum.</h3>
           </div>
@@ -24,7 +24,7 @@ export default function Footer() {
             <Link className="a">Get ticket</Link>
           </div>
         </div>
-
+ */}
 
         <div className="mid-container">
 

@@ -3,6 +3,11 @@ import { NavLink, Link} from 'react-router-dom'
 import '../styles/Header.css'
 
 export default function Header(props) {
+
+  const handleCloseMenu = () => {
+    props.handleToggle(false);
+  };
+
   return (
     <header className='header'>
       <div className="banner">
@@ -11,10 +16,11 @@ export default function Header(props) {
           <Link to="/">eidfair</Link>
         </div>
         <nav className='nav_links'>
-          <NavLink className="active-link">explore</NavLink>
-          <NavLink className="active-link">about us</NavLink>
+          <NavLink className="active-link" to='explore'>explore</NavLink>
+          <NavLink className="active-link" to='AboutUS'>about us</NavLink>
           <NavLink className="active-link" to='ticket'>ticket</NavLink>
         </nav>
+        
         <div className="toggle-btn" onClick={props.handleToggle} >
           {props.isMenuOpen? 
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41z"/></svg> :
@@ -24,24 +30,12 @@ export default function Header(props) {
       <div   className ={props.isMenuOpen? " show-menu " : "hide-menu"} >
         <ul >
 
-
-          
-          <li><Link>explore</Link></li>
-
-          
-          <li><Link>about us</Link></li>
-
-          
-          <li><Link to='ticket'>ticket</Link></li>
-
-          
-          <li><Link to='login&signup'>login</Link></li>
-
-          
-          <li><Link>Refund policy</Link></li>
-
-          
-          <li><Link>terms of services</Link></li>
+          <li><Link to='explore' onClick={handleCloseMenu}>Explore</Link></li>
+          <li><Link to='AboutUS' onClick={handleCloseMenu}>About us</Link></li>
+          <li><Link to='ticket' onClick={handleCloseMenu}>ticket</Link></li>
+          <li><Link to='login&signup' onClick={handleCloseMenu}>Login</Link></li>
+          <li><Link to='refundPolicy' onClick={handleCloseMenu}>Refund Policy</Link></li>
+          <li><Link to='termsOfUse' onClick={handleCloseMenu}>terms of use</Link></li>
         </ul>
       </div>
     </header>

@@ -6,6 +6,7 @@ import TicketPage from './pages/TicketPage';
 import LoginPage from './pages/LoginPage';
 import Layout from './pages/Layout'
 import Signup from './pages/SignupPage';
+import Error404 from './pages/Error404';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route  path='ticket' element={<TicketPage/>} />
             <Route  path='login&signup' element={<LoginPage/>} />
             <Route  path='signupPage' element={<Signup/>} />
+            <Route  path='/*' element={<Error404/>} />
           </Route>
         </Routes>
         {/* <Homepage/> */}
