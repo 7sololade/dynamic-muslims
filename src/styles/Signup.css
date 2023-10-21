@@ -11,7 +11,7 @@ font-family: 'Cabinet Grotesk', sans-serif; */
     margin: 100px auto  500px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: flex-start;
     justify-content: center;
     font-family: 'Satoshi', sans-serif !important;
@@ -42,10 +42,12 @@ font-family: 'Cabinet Grotesk', sans-serif; */
     width: 90%;
     display: block;
     border: none;
-    background-color: transparent;
+    /* background-color: gray; */
     height: 30px;
     margin: 20px 0;
-    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    text-indent: 30px;
+    /* border-bottom: 1px solid gray; */
     &:focus {
         outline: none;
         background-color: transparent;
