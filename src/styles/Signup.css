@@ -42,10 +42,10 @@ font-family: 'Cabinet Grotesk', sans-serif; */
     width: 90%;
     display: block;
     border: none;
-    /* background-color: gray; */
+    /* background-color: rgb(212, 212, 212); */
     height: 30px;
     margin: 20px 0;
-    border-radius: 10px;
+    border-radius: 5px;
     text-indent: 30px;
     /* border-bottom: 1px solid gray; */
     &:focus {
@@ -56,10 +56,10 @@ font-family: 'Cabinet Grotesk', sans-serif; */
 
 .signupForm input::placeholder{
     color: gray;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-indent: 10px 0;
     font-family: 'Inter', sans-serif;
-    font-style: italic;
+    font-style: obliquegit ;
 }
 
 .signupForm .signup-Btn{
