@@ -1,0 +1,33 @@
+@import url('../styles/TermsPage.css');
+
+
+/* font-family: 'Satoshi', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Cabinet Grotesk', sans-serif; */
+
+
+.termsPage{
+    width: 90vw;
+    margin: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 500px;
+    /* font-family: 'Cabinet Grotesk', sans-serif;  */
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.termsPage ol{
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    flex-direction: column;
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+h3{
+    margin-top: 50px;
+    font-family: 'Satoshi', sans-serif;
+}

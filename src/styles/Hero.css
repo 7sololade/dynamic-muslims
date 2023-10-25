@@ -92,6 +92,7 @@ main{
     text-decoration: none;
     text-transform:capitalize;
     margin: 5px 0;
+    width: 100%;
     color: var(--background);
     padding: 3px 15px;
     border-radius: 5px;
@@ -100,6 +101,12 @@ main{
     background-color: var(--accent);
     text-transform: uppercase;
     /* font-weight: bold; */
+}
+
+.text-div .get_ticket{
+    border: 1px solid var(--text);
+    background-color: transparent;
+    color: var(--text);
 }
 
 .text-div a:hover{

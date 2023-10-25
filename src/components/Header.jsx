@@ -18,7 +18,7 @@ export default function Header(props) {
         <nav className='nav_links'>
           <NavLink className="active-link" to='explore'>explore</NavLink>
           <NavLink className="active-link" to='AboutUS'>about us</NavLink>
-          <NavLink className="active-link" to='ticket'>ticket</NavLink>
+          <NavLink className="active-link" to='get-ticket'>ticket</NavLink>
         </nav>
         
         <div className="toggle-btn" onClick={props.handleToggle} >
@@ -32,10 +32,10 @@ export default function Header(props) {
 
           <li><Link to='explore' onClick={handleCloseMenu}>Explore</Link></li>
           <li><Link to='AboutUS' onClick={handleCloseMenu}>About us</Link></li>
-          <li><Link to='ticket' onClick={handleCloseMenu}>ticket</Link></li>
+          <li><Link to='get-ticket' onClick={handleCloseMenu}>ticket</Link></li>
           <li><Link to='login&signup' onClick={handleCloseMenu}>Login</Link></li>
-          <li><Link to='refundPolicy' onClick={handleCloseMenu}>Refund Policy</Link></li>
-          <li><Link to='termsOfUse' onClick={handleCloseMenu}>terms of use</Link></li>
+          <li><Link to='refund-policy' onClick={handleCloseMenu}>Refund Policy</Link></li>
+          <li><Link to='/terms&condition' onClick={handleCloseMenu}>terms of use</Link></li>
         </ul>
       </div>
     </header>

@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState}from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Signup.css'
 
 export default function Signup() {
 
-  const [signUpData, setSignUpData] = React.useState({
+  const [signUpData, setSignUpData] = useState({
+
     email: "",
     password:"",
     repeatPassword:"",
@@ -37,7 +38,7 @@ export default function Signup() {
   }
 
   return (
-     <div className='signupPage'> 
+    <div className='signupPage'> 
       <main className="main-signup">
         <div className="form-title">
           <h3>PERSONAL DETAILS</h3>
@@ -108,6 +109,7 @@ export default function Signup() {
             onChange={handleChange}
             value={signUpData.city}
           />
+
           <input 
             type="text"
             placeholder='telephone'
@@ -118,6 +120,7 @@ export default function Signup() {
 
           <button className='signup-Btn'>create account</button>
 
+          <br />
           <br />
           
 
@@ -151,7 +154,7 @@ export default function Signup() {
               onChange={handleChange}
               checked={signUpData.terms}
             />
-            <Link className='terms' to={"/terms&&conditions"}>
+            <Link className='terms' to={"/terms&condition"}>
               <label htmlFor="terms&conditions">TERMS & CONDITIONS</label>
             </Link>
             <br />

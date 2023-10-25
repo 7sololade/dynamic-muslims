@@ -13,7 +13,7 @@ font-family: 'Cabinet Grotesk', sans-serif; */
 
 
 .footer .footer-wrap {
-    width: 80%;
+    width: 90%;
     /* border: 1px solid white; */
     margin: 130px auto 0px;
     display: flex;
@@ -21,8 +21,9 @@ font-family: 'Cabinet Grotesk', sans-serif; */
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 40px;
+    /* gap: 40px; */
     flex: 1 0 1;
+    z-index: 2;
 }
 
 .top-container{
@@ -33,7 +34,7 @@ font-family: 'Cabinet Grotesk', sans-serif; */
     background-color: var(--background);
     width: 100%;
     height: 300px;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Satoshi', sans-serif;
     /* clip-path: polygon(424.27px 300px, 600px 300px, 600px 87.87px, 424.27px 0px, 175.73px 0px, 0px 0px, 0px 212.13px, 175.73px 300px); */
     border-radius: 60px 0 120px 0;

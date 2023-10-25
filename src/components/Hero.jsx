@@ -23,8 +23,9 @@ export default function Hero() {
                 <div className="subcontent">
                     <div className="para-btn">
                         <div className="text-div">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates in magnam mollitia eius, voluptate numquam inventore reiciendis suscipit.</p>
+                            <p>Lorem ipsum dolor adipisicing elit. Voluptates in magnam mollitia eius, voluptate numquam inventore reiciendis suscipit.</p>
                             <Link to='login&signup'> Register</Link>
+                            <Link to='get-ticket'className='get_ticket' >Get Ticket</Link>
                         </div>
 
                         <div className="img-div">

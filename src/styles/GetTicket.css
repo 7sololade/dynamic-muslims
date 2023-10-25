@@ -1,0 +1,227 @@
+@import url('../styles/GetTicket.css');
+
+/* font-family: 'Satoshi', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Cabinet Grotesk', sans-serif; */
+
+
+
+.ticket-wrapper{
+    width: 95vw;
+    margin: 150px auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px solid hotpink; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 600px; */
+    gap: 20px;
+}
+
+
+.contact-us{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* padding: 10px; */
+    gap: 30px;
+    flex: 1 0 1;
+    flex-wrap: wrap;
+}
+
+.contact-content h1{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.contact-content h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.contact-info h1{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.contact-info h5{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+
+
+.contact-info > *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space;
+    gap: 20px;
+}
+
+.contact-socials{
+    width: 80%;
+    margin:  40px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /* background-color: blue; */
+}
+
+.contact-socials > .social a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.ticket-field{
+    height: 900px;
+    width: 50%;
+    display: flex;
+    /* gap: 30px; */
+    flex-direction: column;
+    /* border: 1px solid lawngreen; */
+    /* padding: 10px; */
+}
+
+
+.ticket-field h1{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    gap: 10px;
+    justify-content: space-between;
+    /* min-height: 300px; */
+}
+
+.personal-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* height: 100px; */
+    gap: 15px;
+}
+
+.personal-input input{
+    background-color: transparent;
+    flex: auto;
+    width: 50%;
+    outline: none;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+input:focus{
+    text-indent: 10px;
+}
+
+input::placeholder{
+    color: black;
+    text-indent: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Satoshi', sans-serif;
+    background-color: var(--background);
+}
+
+.select-label{
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+select{
+    height: 30px;
+}
+
+
+
+
+textarea{
+    resize: none;
+}
+
+textarea::placeholder{
+    text-indent: 10px;
+    /* margin-top: 10px; */
+    /* padding: 10px 0; */
+}
+
+textarea:focus{
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    padding: 10px 0;
+}
+    
+button{
+    width: 20%;
+    height: 30px;
+    background-color: var(--accent);
+    outline: transparent;
+    border: none;
+    color: var(--background);
+}
+
+
+
+
+
+
+
+@media (width < 750px) {
+    
+    .ticket-wrapper{
+        flex-direction: column;
+        min-height: 600px;
+    }
+
+    .contact-us{
+        width: 100%;
+    }
+
+
+    .ticket-field{
+        width: 100%;
+        /* border: 1px solid lawngreen; */
+    }
+
+    .personal-input{
+        min-height: 150px;
+        gap: 20px;
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
+    .personal-input input{
+        width: 100%;
+    }
+}

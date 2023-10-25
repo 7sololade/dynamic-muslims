@@ -16,10 +16,10 @@ export default function Pricing() {
 
 
         <div className=" card card-one">
-          <h1 className="title">Basic Card</h1>
+          <h1 className="title">Bronze Card</h1>
           <hr className='hr' />
           <div className="pricing-det">
-            <h3>#5000 </h3>
+            {/* <h3>#5000 </h3> */}
             <ul>
               <li>Cards games</li>
               <li>Trivia</li>
@@ -35,10 +35,10 @@ export default function Pricing() {
 
 
         <div className=" card card-two">
-          <h1 className="title">Premium Card</h1>
+          <h1 className="title">Gold Card</h1>
           {/* <hr className='hr' /> */}
           <div className="pricing-det">
-            <h3>#20,000</h3>
+            {/* <h3>#20,000</h3> */}
             <ul>
               <li>Cards games</li>
               <li>Trivia</li>
@@ -56,7 +56,7 @@ export default function Pricing() {
           <h1 className="title">Silver Card</h1>
           <hr className='hr' />
           <div className="pricing-det">
-            <h3>#12,000</h3>
+            {/* <h3>#12,000</h3> */}
             <ul>
               <li>Cards games</li>
               <li>Trivia</li>
