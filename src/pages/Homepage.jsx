@@ -6,13 +6,32 @@ import Offer from '../components/Offer'
 import CountDown from '../components/CountDown'
 import Pricing from '../components/Pricing'
 import Newsletter from '../components/Newsletter'
+import BlogContent from '../components/BlogContent'
+import blogData from '../blogFile'
+import '../styles/HomePage.css'
 
-// import Layout from '../pages/Layout'
 
 
 
 
 export default function Homepage() {
+
+  const blogElement = blogData.map((blogDatum, index)=>{
+    return(
+      <BlogContent
+        key={index}
+        img= {blogDatum.Image}
+        title={blogDatum.title}
+        content={blogDatum.content}
+      
+      />
+    )
+  })
+
+
+
+
+
   return (
     <>
       {/* <Layout/> */}
@@ -21,10 +40,11 @@ export default function Homepage() {
       <Offer/>
       <Pricing/>
       <Testimony/>
+      <div  className='blog-content'>
+        {blogElement}
+      </div>
       <Newsletter/>
       <Partners/>
     </>
   )
 }
-
-

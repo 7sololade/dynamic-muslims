@@ -76,9 +76,11 @@ font-family: 'Cabinet Grotesk', sans-serif; */
 
 
 .button-input{
-    width: 45%;
+    width: 50%;
+    /* border: 2px solid red; */
     height: 60px;
     outline: 1px solid var(--background);
+    background-color: transparent;
     padding: 10px 0;
     border-radius: 20px;
     display: flex;
@@ -88,22 +90,23 @@ font-family: 'Cabinet Grotesk', sans-serif; */
     padding: 10px;
 }
 
-.button-input input{
-    background-color: transparent;
+.button-input .news-input{
+    background-color: transparent !important;
+    border: none;
+    text-indent: 30px;
+    height: 40px;
+    margin-bottom: 0px;
+    width: 90%;
     &:focus {
         outline: none;
         background-color: transparent;
         color: var(--background);
     }
-    border: none;
-    text-indent: 30px;
-    /* border-bottom: 1px solid var(--background); */
-    margin-bottom: 0px;
-    width: 90%;
 }
 
 input::placeholder{
     color: var(--background);
+    /* background-color: transparent; */
     font-weight: lighter;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 12px;

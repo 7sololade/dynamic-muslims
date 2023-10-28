@@ -121,7 +121,7 @@ export default function GetTicket() {
                 value={getTicket.lastName}
               />
               <input 
-                type="number" 
+                type="text" 
                 placeholder='Phone Number' 
                 onChange={handleChange}
                 name='phoneNumber'

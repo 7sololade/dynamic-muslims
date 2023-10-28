@@ -10,12 +10,13 @@ import Error404 from './pages/Error404';
 import GetTicket from './pages/GetTicket';
 import TermsPage from './pages/TermsPage';
 import RefundPolicy from './pages/RefundPolicy';
+// import BlogDetails from './pages/BlogDetails';
 
 
 
 function App() {
 
-  
+
 
 
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route  path='get-ticket' element={<GetTicket/>} />
             <Route  path='terms&condition' element={<TermsPage/>} />
             <Route  path='refund-policy' element={<RefundPolicy/>} />
+            {/* <Route  path='blog-details/:id' element={<BlogDetails/>} /> */}
             <Route  path='/*' element={<Error404/>} />
           </Route>
         </Routes>

@@ -31,10 +31,10 @@ export default function Signup() {
       }
     })
   }
+  console.log(signUpData);
 
   function handleSubmit(event){
     event.preventDefault()
-    console.log(signUpData);
   }
 
   return (

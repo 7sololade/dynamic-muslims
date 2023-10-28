@@ -16,9 +16,10 @@ export default function Header(props) {
           <Link to="/">eidfair</Link>
         </div>
         <nav className='nav_links'>
-          <NavLink className="active-link" to='explore'>explore</NavLink>
+          <NavLink  className="active-link" to='explore'>explore</NavLink>
           <NavLink className="active-link" to='AboutUS'>about us</NavLink>
           <NavLink className="active-link" to='get-ticket'>ticket</NavLink>
+          <NavLink className="active-link" to='blogs'>blog</NavLink>
         </nav>
         
         <div className="toggle-btn" onClick={props.handleToggle} >

@@ -30,6 +30,7 @@ export default function Newsletter() {
 
         <div className="button-input">
             <input
+                className='news-input'
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}

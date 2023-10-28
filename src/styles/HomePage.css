@@ -1,0 +1,24 @@
+@import url('../styles/BlogContent.css');
+
+/*  
+    font-family: 'Satoshi', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Cabinet Grotesk', sans-serif; 
+*/
+
+
+
+.blog-content{
+    width: 95vw;
+    margin: 100px auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex: 1 0 1 ;
+    flex-wrap: wrap;
+}

@@ -24,6 +24,7 @@ export default function SharedLayOut() {
         handleToggle={handleToggle } //function
       />
 
+
       <main>
         <Outlet/>
       </main>

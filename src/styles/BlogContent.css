@@ -1,0 +1,73 @@
+@import url('../styles/BlogContent.css');
+
+/*  
+    font-family: 'Satoshi', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Cabinet Grotesk', sans-serif; 
+*/
+
+
+
+
+.blogDetails-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 500px;
+    flex: 1 0 500px;
+    min-height: 620px;
+    /* padding: 20px; */
+    overflow: hidden;
+}
+
+.blog-img{
+    width: 500px;
+    height: 400px;
+}
+
+
+.blog-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.hide-news{
+    height: 20px;
+    overflow: hidden;
+    border: 1px solid red;
+    transition: all 400ms ease-in-out;
+}
+
+.show-news{
+    min-height: 30px;
+    overflow:visible;
+    transition: all 400ms ease-in-out;
+    margin-bottom: 50px;
+}
+
+.btn-link{
+    background-color: var(--text);
+    color: var(--background);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.show-news .btn-link{
+    margin-top: 20px;
+}
+
+.btn-link
+ button{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+ }
